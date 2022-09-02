@@ -12,6 +12,7 @@
   "dependencies": {
     "@medusajs/medusa": "^1.3.7",
     "@medusajs/medusa-cli": "^1.3.1",
+    "cloudinary": "^1.31.0",
     "medusa-fulfillment-manual": "^1.1.31",
     "medusa-interfaces": "^1.3.3",
     "medusa-payment-manual": "^1.0.16",
@@ -23,7 +24,9 @@
     "sqlite",
     "ecommerce",
     "headless",
-    "medusa"
+    "medusa",
+    "medusa-file",
+    "medusa-plugin"
   ],
   "devDependencies": {
     "@babel/cli": "^7.18.10",
